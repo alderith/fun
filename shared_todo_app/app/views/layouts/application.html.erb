@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SharedTodoApp</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Just Did it</a>
+    </div>
+  </div>
+          
+<%= yield %>
+
+</body>
+</html>
